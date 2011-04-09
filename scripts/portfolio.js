@@ -26,8 +26,8 @@ $(document).ready(function() {
 		'titlePosition'	: 'inside',
 		'autoscale'		: 'true',
 		'titleFormat'   : formatTitle,
-		'overlayColor'  : '#111',
-		'overlayOpacity': 0.7
+		'overlayColor'  : '#222',
+		'overlayOpacity': 0.5
 	});
 	
 	$(".tagVideo").click(function() {
@@ -38,8 +38,8 @@ $(document).ready(function() {
 				'titleFormat'       : formatTitle,
 				'title'				: this.title,
 				'titlePosition'		: 'inside',
-				'overlayColor'      : '#111',
-				'overlayOpacity'    : 0.7,
+				'overlayColor'      : '#222',
+				'overlayOpacity'    : 0.5,
 				'href'				: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
 				'type'				: 'swf',
 				'swf'				: {

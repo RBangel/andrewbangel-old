@@ -276,3 +276,16 @@ hr {
     display:    block;
     text-align: left;
 }
+
+.fancybox-title-inside {
+	background: #000;
+	color: #fff;
+}
+
+#fancybox-outer {
+	background: #000;
+}
+
+#fancybox-content {
+	border-color: #000;
+}
