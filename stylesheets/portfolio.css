@@ -1,0 +1,278 @@
+
+/*  Style Guide for Andrew's portfolio page                             */
+/*  CSS Reset Reloaded                                                  */
+/*  Author:  Eric Meyer                                                 */
+/*  url:  http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+	text-align: center;
+	background: url("images/TankNWattBG.jpg") fixed no-repeat right bottom black;
+	font-family: Cambria,"Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+ol, ul {
+	list-style: disc;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*  End of CSS Reset Reloaded  */
+
+html, body {
+	height: 99%;
+}
+
+.title {
+	position: relative;
+	font-size: 300%;
+	color: #BDA477;
+	font-family: 'Tangerine', Zapfino;
+	font-weight: bold;
+}
+
+.download {
+	position: relative;
+	float: right;
+	color: white;
+    bottom: -20px;
+}
+
+.download a {
+    color: white;
+}
+
+.header {
+	position: relative;
+	text-align: left;
+}
+
+.header hr {
+	position: relative;
+	bottom: 15px;
+}
+
+#wrapper
+{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	top: 20%;
+	height: 60%;
+}
+
+#contentBox {
+	position: relative;
+	height: 95%;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	color: white;
+}
+
+#about img {
+	float: right;
+	height: 300px;
+	width: 207px;
+	padding: 4px;
+	border-width: 3px;
+	margin: 3px;
+	border-color: white;
+}
+	
+#contact .email {
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	border: 2px;
+	border-color: white;
+	width: 380px;
+}
+	.email input {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 200px;
+	}
+	.email textarea {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 300px;
+		max-width: 375px;
+		max-height: 200px;
+	}
+
+#contact .otherContact {			
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	border: 2px;
+	border-color: white;
+	width: 280px;
+}	
+	.otherContact img {
+		height: 25px;
+		width: 25px;
+	}	
+	.otherContact a {
+		text-decoration: none;
+		color: #D8D8D8;
+	}
+
+#demo {
+	height: 100%;
+}
+
+#demo .info {
+	text-align: center;
+	height: 410px;
+}
+
+#works img {
+		margin: 2px;
+		width: 170px;
+		height: 127px;
+		float: left;
+}
+
+.menuOption {
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 110px;
+}
+	.menuOption.title {
+		font-size: 325%;
+		width: 255px;
+		text-align: center;
+	}
+	.menuOption.leftOption {
+		vertical-align: top;
+		text-align: left;
+	}
+	.menuOption.rightOption {
+		text-align: right;
+	}
+
+hr {
+	border: 0px;
+	border-color: #434343;
+	background-color: #434343;
+	color: #434343;
+	height: 3px;
+}
+
+.silver {
+	color: #434343;
+}
+
+.gold {
+	color: #BDA477;
+}
+
+#menuBox {
+	position: absolute;
+	top: 95%;
+	width: 100%;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+	#menuBox ul {
+  		display: inline;
+  		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	#menuBox li {
+  		display: inline;
+  		list-style-type: none;
+		color: #D8D8D8;
+	}
+
+	#menuBox a {
+		font-size: 14pt;
+		text-decoration: none;
+		color: #D8D8D8;
+	}
+
+	#menuBox a:hover {
+		background-color: #777;
+	}
+
+.tagOption {
+	cursor: pointer;
+}
+
+#worksMenu {
+	text-align: center;
+	bottom: 0;
+}
+
+#worksMenu li {
+	padding-left: 35px;
+	padding-right: 35px;
+	display: inline;
+	list-style-type: none;
+}
+
+#resumeMenu {
+	text-align: center;
+	bottom: 0;
+}
+
+#resumeMenu li {
+	padding-left: 35px;
+	padding-right: 35px;
+	display: inline;
+	list-style-type: none;
+}
+
+#resume ul {
+	padding-left: 25px;
+}
+
+#media-title {
+    display:    block;
+    text-align: left;
+}
