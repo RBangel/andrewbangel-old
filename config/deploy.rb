@@ -1,10 +1,9 @@
 set :application, 'andrewbangel.com'
 set :repo_url, 'git@github.com:JBangel/andrewbangel.com.git'
+set :branch, 'develop'
 
-# ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
-
-# set :deploy_to, '/var/www/my_app'
-# set :scm, :git
+set :deploy_to, '/webapps/projects/andrewbangel/'
+set :scm, :git
 
 # set :format, :pretty
 # set :log_level, :debug
