@@ -12,6 +12,10 @@ group :development, :test do
   gem 'childprocess'
 end
 
+group :development do
+  gem 'capistrano-rails'
+end
+
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
@@ -29,7 +33,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
-gem 'capistrano-rails', group: :development
+gem 'dotenv-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
