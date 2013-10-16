@@ -1,5 +1,3 @@
-require 'dotenv/capistrano'
-
 set :application, 'andrewbangel.com'
 set :repo_url, 'git@github.com:JBangel/andrewbangel.com.git'
 set :branch, 'develop'
